@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Launchpad Jose',
+      title: 'Launchpad',
       // Tema Gelap (Dark Mode)
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color(0xFF1A1A1A), 
@@ -72,7 +72,7 @@ class _LaunchpadPageState extends State<LaunchpadPage> {
               width: 30,
             ),
             const SizedBox(width: 12), // Jarak spasi antara icon dan teks
-            const Text("LAUNCHPAD 28"),
+            const Text("LAUNCHPAD"),
           ],
         ),
         centerTitle: true,
